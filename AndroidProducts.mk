@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_violet.mk
+    $(LOCAL_DIR)/bootleg_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_violet-userdebug
+    bootleg_violet-userdebug

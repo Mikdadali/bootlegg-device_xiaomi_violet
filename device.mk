@@ -11,7 +11,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # MiuiCamera
-$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
+$(call inherit-product-if-exists, vendor/ANXCamera/config.mk)
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -24,8 +24,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-havoc
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
