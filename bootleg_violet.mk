@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common HavocOS stuff.
+# Inherit some common Bootleggers stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
